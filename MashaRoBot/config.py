@@ -11,17 +11,17 @@ class Config(object):
     LOGGER = True
   
     TEMP_DOWNLOAD_DIRECTORY = 'None'
-    API_ID = "FILL API ID "  # integer value, dont use ""
-    API_HASH = "FIL API HASH"
-    TOKEN = "BOT_TOKEN"
-    OWNER_ID = 1732814103  
-    OWNER_USERNAME = "theTelegrampro"
+    API_ID = 13303918
+    API_HASH = "24f473f4478796b9a416e4e68b49ab25"
+    TOKEN = "5095488014:AAGLY6HhEP3cBOdZmuZFW2mAiuhxMmOhaUY"
+    OWNER_ID = 916028993
+    OWNER_USERNAME = "deadpool"
     SUPPORT_CHAT = 'Thanimaisupport'
-    JOIN_LOGGER = -1001739802989
-    EVENT_LOGS = -1001739802989
+    JOIN_LOGGER = -1001776212077
+    EVENT_LOGS = -1001776212077
 
     ALLOW_CHATS = "True"
-    SQLALCHEMY_DATABASE_URI = 'ELEPHAT OR HEROKU DB URL'  
+    SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:eP1tQFTZj5s57Z7RbfYU@containers-us-west-22.railway.app:7214/railway'  
     LOAD = []
     NO_LOAD = ['rss', 'cleaner', 'connection', 'math']
     WEBHOOK = None
@@ -29,7 +29,7 @@ class Config(object):
     URL = None
     SPAMWATCH_API = ""  
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
-    BOT_ID = "2052309535"
+    BOT_ID = "5009454218"
     
     DRAGONS = get_user_list('elevated_users.json', 'sudos')
 
