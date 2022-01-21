@@ -27,18 +27,18 @@ class Config(object):
     WEBHOOK = None
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = ""  
+    SPAMWATCH_API = "uyMrTbnUfQcraw5B7Pgn3JHZLPBt_dijS5ZhbIK3rKWFkcfZTjmateY4nSgx9Ofo"  
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
-    BOT_ID = "5009454218"
+    BOT_ID = "5063706531"
     
-    DRAGONS = get_user_list('elevated_users.json', 'sudos')
+    DRAGONS = 916028993('elevated_users.json', 'sudos')
 
-    DEV_USERS = get_user_list('elevated_users.json', 'devs')
+    DEV_USERS = 916028993('elevated_users.json', 'devs')
     ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    DEMONS = get_user_list('elevated_users.json', 'supports')
+    DEMONS = 916028993('elevated_users.json', 'supports')
     #List of id's (not usernames) for users which WONT be banned/kicked by the bot.
-    TIGERS = get_user_list('elevated_users.json', 'tigers')
-    WOLVES = get_user_list('elevated_users.json', 'whitelists')
+    TIGERS = 916028993('elevated_users.json', 'tigers')
+    WOLVES = 916028993('elevated_users.json', 'whitelists')
     DONATION_LINK = None  # EG, paypal
     CERT_PATH = None
     PORT = 5000
@@ -47,10 +47,10 @@ class Config(object):
     WORKERS = 8  # Number of subthreads to use. Set as number of threads your processor uses
     BAN_STICKER = ''  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
-    CASH_API_KEY = 'awoo'  # Get your API key from https://www.alphavantage.co/support/#api-key
-    TIME_API_KEY = 'awoo'  # Get your API key from https://timezonedb.com/api
+    CASH_API_KEY = 'O6FGAQ3BYSIPE48P'  # Get your API key from https://www.alphavantage.co/support/#api-key
+    TIME_API_KEY = 'Y3JQK0TJ6NVF'  # Get your API key from https://timezonedb.com/api
     WALL_API = 'awoo'  #For wallpapers, get one from https://wall.alphacoders.com/api.php
-    AI_API_KEY = 'awoo'  #For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
+    AI_API_KEY = 'd50ac1930db5722c348d36ed5eac5e2020a6fe1ab07eb3f39658e2c44350d9c4d7f389097b92b80b28137a678159ab36fd9b944621e7e7bfaf4b68d2df508144'  #For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
     BL_CHATS = []  # List of groups that you want blacklisted.
     SPAMMERS = None
 
